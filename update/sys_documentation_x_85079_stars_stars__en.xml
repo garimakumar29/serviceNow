@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="stars" language="en" table="x_85079_stars_stars">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>stars</label>
+            <language>en</language>
+            <name>x_85079_stars_stars</name>
+            <plural>stars</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 06:02:52</sys_created_on>
+            <sys_id>82c7e4d04f021300bd9b224f9310c7cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>stars</sys_name>
+            <sys_package display_value="STARS" source="x_85079_stars">b997e8104f021300bd9b224f9310c757</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="STARS">b997e8104f021300bd9b224f9310c757</sys_scope>
+            <sys_update_name>sys_documentation_x_85079_stars_stars__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 06:02:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

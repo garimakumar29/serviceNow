@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>To fill Stars Requested for field on Load</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <messages/>
+        <name>Stars Requested For</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	try{
+	alert("Welcome");
+	alert(g_user.getFullName());
+	alert(g_user.userID);
+	if(g_form.isNewRecord())
+	g_form.setValue('u_reference_1',g_user.userID);
+	jslog("coz I happy");
+	g_form.addInfoMessage('This is an information');
+	g_form.addErrorMessage('This is an error message');
+	g_form.enableAttachments();
+	g_form.flash('status','#FFFACD',0);
+	g_form.getSections();
+	g_form.isMandatory('status');
+	//	console.log("This message was written by console.log().");
+//hellowrld();
+	g_form.addDecoration('status','icon-star','referece');
+		
+		
+
+	}
+	catch(err)
+		{
+			jslog('This error has been encountered'+err.message +' : '+err.name);
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-11 08:43:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88be1f704f421300bd9b224f9310c7fe</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Stars Requested For</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="STARS" source="x_85079_stars">b997e8104f021300bd9b224f9310c757</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="STARS">b997e8104f021300bd9b224f9310c757</sys_scope>
+        <sys_update_name>sys_script_client_88be1f704f421300bd9b224f9310c7fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-14 11:10:59</sys_updated_on>
+        <table>x_85079_stars_stars</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

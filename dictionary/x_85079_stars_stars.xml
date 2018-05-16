@@ -17,8 +17,19 @@
             </choice>
         </element>
         <element label="Requested_for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Requested For_test" max_length="40" name="u_requested_for" type="string">
+            <choice>
+                <element label="HR" sequence="0" value="Choice 2"/>
+                <element label="HR" sequence="0" value="hr"/>
+                <element label="Legal" sequence="1" value="legal"/>
+                <element label="Others" sequence="2" value="others"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" dependent="u_string_1" dependent_on_field="u_string_1" label="Test" max_length="40" name="u_string_2" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="What Needed" max_length="40" name="u_what_needed" type="string">
+            <choice/>
+        </element>
         <index name="index">
             <element name="u_reference_1"/>
         </index>

@@ -16,6 +16,7 @@
                 <element label="Closed" sequence="3" value="closed"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Others" max_length="40" name="u_others" type="string"/>
         <element label="Requested_for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Requested For_test" max_length="40" name="u_requested_for" type="string">
             <choice>

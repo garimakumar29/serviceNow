@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_others</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 10:56:34</sys_created_on>
+        <sys_id>461ea52e4f021300bd9b224f9310c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_others</sys_name>
+        <sys_package display_value="STARS" source="x_85079_stars">b997e8104f021300bd9b224f9310c757</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="STARS">b997e8104f021300bd9b224f9310c757</sys_scope>
+        <sys_update_name>sys_ui_policy_action_461ea52e4f021300bd9b224f9310c7a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 10:56:34</sys_updated_on>
+        <table>x_85079_stars_stars</table>
+        <ui_policy display_value="Test UI policy">d8c0ad264f021300bd9b224f9310c702</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

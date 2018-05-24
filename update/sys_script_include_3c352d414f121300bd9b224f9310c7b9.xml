@@ -3,10 +3,10 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_85079_stars.ValidateEmailAddress</api_name>
-        <client_callable>false</client_callable>
+        <api_name>x_85079_stars.validateEmailAddress</api_name>
+        <client_callable>true</client_callable>
         <description>To validate email address</description>
-        <name>ValidateEmailAddress</name>
+        <name>validateEmailAddress</name>
         <script><![CDATA[function validateEmailAddress(emailStr){
 		// Use JavaScript coercion to guarantee emailStr is a string
 		emailStr = emailStr + '';
@@ -23,13 +23,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 04:43:42</sys_created_on>
         <sys_id>3c352d414f121300bd9b224f9310c7b9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>ValidateEmailAddress</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
         <sys_package display_value="STARS" source="x_85079_stars">b997e8104f021300bd9b224f9310c757</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="STARS">b997e8104f021300bd9b224f9310c757</sys_scope>
         <sys_update_name>sys_script_include_3c352d414f121300bd9b224f9310c7b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-24 04:48:13</sys_updated_on>
+        <sys_updated_on>2018-05-24 05:28:13</sys_updated_on>
     </sys_script_include>
 </record_update>
